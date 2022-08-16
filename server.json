@@ -7,7 +7,7 @@
 	"Cipher":{
 		"Key":"809240d3a021449f6e67aa73221d42df942a308a",
 		//AllowedUser
-		"User": "*,gsnova"
+		"User": "*,gnv"
 	},
     //Limit user 'abc' bandwidth to 256KB/s
 	"RateLimit":{
@@ -15,8 +15,8 @@
 		"*":"-1"
 	},
 	"Mux":{
-		"MaxStreamWindow": "512K",
-		"StreamMinRefresh":"32K",
+		"MaxStreamWindow": "1024K",
+		"StreamMinRefresh":"64K",
 		"StreamIdleTimeout":10,
 		"SessionIdleTimeout":300
 	},
