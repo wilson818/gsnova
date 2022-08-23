@@ -8,8 +8,8 @@ import (
 	"github.com/miekg/dns"
 	"github.com/yinqiwen/fdns"
 	"github.com/yinqiwen/gotoolkit/cip"
-	"github.com/yinqiwen/gsnova/common/logger"
-	"github.com/yinqiwen/gsnova/common/netx"
+	"github.com/wilson818/gsnova/common/logger"
+	"github.com/wilson818/gsnova/common/netx"
 )
 
 var LocalDNS *fdns.TrustedDNS
