@@ -2,9 +2,9 @@ package kcp
 
 import (
 	kcp "github.com/xtaci/kcp-go"
-	"github.com/yinqiwen/gsnova/common/channel"
-	"github.com/yinqiwen/gsnova/common/logger"
-	"github.com/yinqiwen/gsnova/common/mux"
+	"github.com/wilson818/gsnova/common/channel"
+	"github.com/wilson818/gsnova/common/logger"
+	"github.com/wilson818/gsnova/common/mux"
 	"github.com/yinqiwen/pmux"
 )
 
