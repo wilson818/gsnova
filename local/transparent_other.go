@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/yinqiwen/gsnova/common/logger"
+	"github.com/wilson818/gsnova/common/logger"
 )
 
 func getOrinalTCPRemoteAddr(conn net.Conn) (net.Conn, net.IP, uint16, error) {
