@@ -7,13 +7,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/yinqiwen/gsnova/common/channel"
-	"github.com/yinqiwen/gsnova/common/dns"
-	"github.com/yinqiwen/gsnova/common/helper"
-	"github.com/yinqiwen/gsnova/common/hosts"
-	"github.com/yinqiwen/gsnova/common/logger"
-	"github.com/yinqiwen/gsnova/common/mux"
-	"github.com/yinqiwen/gsnova/common/netx"
+	"github.com/wilson818/gsnova/common/channel"
+	"github.com/wilson818/gsnova/common/dns"
+	"github.com/wilson818/gsnova/common/helper"
+	"github.com/wilson818/gsnova/common/hosts"
+	"github.com/wilson818/gsnova/common/logger"
+	"github.com/wilson818/gsnova/common/mux"
+	"github.com/wilson818/gsnova/common/netx"
 )
 
 type directStream struct {
