@@ -3,7 +3,7 @@ package helper
 import (
 	"errors"
 
-	"github.com/yinqiwen/gsnova/common/logger"
+	"github.com/wilson818/gsnova/common/logger"
 )
 
 var ErrTLSIncomplete = errors.New("TLS header incomplete")
