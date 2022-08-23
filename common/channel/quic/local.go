@@ -57,7 +57,7 @@ func (tc *QUICProxy) CreateMuxSession(server string, conf *channel.ProxyChannelC
 		return nil, err
 	}
 	logger.Debug("Connect %s success.", server)
-	return &mux.QUICMuxSession{Session: quicSession}, nil
+	return &mux.QUICMuxSession{Connection: quicSession}, nil
 }
 
 func init() {
