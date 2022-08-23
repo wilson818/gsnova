@@ -15,12 +15,12 @@ import (
 	"time"
 
 	"github.com/yinqiwen/gotoolkit/ots"
-	"github.com/yinqiwen/gsnova/common/channel"
-	_ "github.com/yinqiwen/gsnova/common/channel/common"
-	"github.com/yinqiwen/gsnova/common/helper"
-	"github.com/yinqiwen/gsnova/common/logger"
-	"github.com/yinqiwen/gsnova/local"
-	"github.com/yinqiwen/gsnova/remote"
+	"github.com/wilson818/nova-gs/common/channel"
+	_ "github.com/wilson818/nova-gs/common/channel/common"
+	"github.com/wilson818/nova-gs/common/helper"
+	"github.com/wilson818/nova-gs/common/logger"
+	"github.com/wilson818/nova-gs/local"
+	"github.com/wilson818/nova-gs/remote"
 )
 
 func printASCIILogo() {
