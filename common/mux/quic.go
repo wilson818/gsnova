@@ -6,8 +6,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	quic "github.com/lucas-clemente/quic-go"		
-
+	quic "github.com/lucas-clemente/quic-go"
 )
 
 type QUICMuxSession struct {
