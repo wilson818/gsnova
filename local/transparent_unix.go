@@ -11,11 +11,11 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/yinqiwen/gsnova/common/channel"
-	"github.com/yinqiwen/gsnova/common/logger"
-	"github.com/yinqiwen/gsnova/common/mux"
-	"github.com/yinqiwen/gsnova/common/netx"
-	"github.com/yinqiwen/gsnova/common/protector"
+	"github.com/wilson818/gsnova/common/channel"
+	"github.com/wilson818/gsnova/common/logger"
+	"github.com/wilson818/gsnova/common/mux"
+	"github.com/wilson818/gsnova/common/netx"
+	"github.com/wilson818/gsnova/common/protector"
 )
 
 const (
