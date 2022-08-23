@@ -8,9 +8,9 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/yinqiwen/gsnova/common/helper"
-	"github.com/yinqiwen/gsnova/common/logger"
-	"github.com/yinqiwen/gsnova/common/mux"
+	"github.com/wilson818/gsnova/common/helper"
+	"github.com/wilson818/gsnova/common/logger"
+	"github.com/wilson818/gsnova/common/mux"
 	"github.com/yinqiwen/pmux"
 )
 
