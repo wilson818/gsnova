@@ -25,7 +25,7 @@ func (q *QUICMuxSession) CloseStream(stream MuxStream) error {
 }
 
 func (q *QUICMuxSession) OpenStream() (MuxStream, error) {
-	s, err := q.OpenStreamSync(context.Background())
+	s, err := q.OpenStreamSync()
 	if nil != err {
 		return nil, err
 	}
