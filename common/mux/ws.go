@@ -5,7 +5,7 @@ import (
 	"net"
 
 	"github.com/gorilla/websocket"
-	"github.com/yinqiwen/gsnova/common/logger"
+	"github.com/wilson818/gsnova/common/logger"
 )
 
 type WsConn struct {
