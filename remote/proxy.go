@@ -4,13 +4,13 @@ import (
 	"crypto/tls"
 	"net/url"
 
-	"github.com/yinqiwen/gsnova/common/helper"
-	"github.com/yinqiwen/gsnova/common/logger"
+	"github.com/wilson818/gsnova/common/helper"
+	"github.com/wilson818/gsnova/common/logger"
 
-	"github.com/yinqiwen/gsnova/common/channel/http2"
-	"github.com/yinqiwen/gsnova/common/channel/kcp"
-	"github.com/yinqiwen/gsnova/common/channel/quic"
-	"github.com/yinqiwen/gsnova/common/channel/tcp"
+	"github.com/wilson818/gsnova/common/channel/http2"
+	"github.com/wilson818/gsnova/common/channel/kcp"
+	"github.com/wilson818/gsnova/common/channel/quic"
+	"github.com/wilson818/gsnova/common/channel/tcp"
 )
 
 func generateTLSConfig(cert, key string) (*tls.Config, error) {
