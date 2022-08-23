@@ -6,8 +6,8 @@ FROM golang:1.9-alpine3.6
 #ADD ./server.json /go/bin
 
 RUN apk add --update git && \
-    go get -t github.com/wilson818/nova-gs  && \
-    go install github.com/wilson818/nova-gs 
+    go get -t github.com/wilson818/gsnova  && \
+    go install github.com/wilson818/gsnova 
 
 #WORKDIR /go/bin
 # Run the outyet command by default when the container starts.
