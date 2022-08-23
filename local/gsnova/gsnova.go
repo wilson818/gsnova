@@ -1,10 +1,10 @@
 package gsnova
 
 import (
-	_ "github.com/yinqiwen/gsnova/common/channel/common"
-	"github.com/yinqiwen/gsnova/common/helper"
-	"github.com/yinqiwen/gsnova/common/netx"
-	"github.com/yinqiwen/gsnova/local"
+	_ "github.com/wilson818/gsnova/common/channel/common"
+	"github.com/wilson818/gsnova/common/helper"
+	"github.com/wilson818/gsnova/common/netx"
+	"github.com/wilson818/gsnova/local"
 )
 
 func init() {
