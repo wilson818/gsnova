@@ -1,7 +1,7 @@
 package remote
 
 import (
-	"github.com/yinqiwen/gsnova/common/channel"
+	"github.com/wilson818/gsnova/common/channel"
 )
 
 type ServerListenConfig struct {
