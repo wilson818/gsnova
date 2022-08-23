@@ -16,7 +16,7 @@ import (
 
 	"github.com/dsnet/compress/brotli"
 	"github.com/yinqiwen/gotoolkit/iotools"
-	"github.com/yinqiwen/gsnova/common/helper"
+	"github.com/wilson818/gsnova/common/helper"
 )
 
 var dumpFiles = make(map[string]*iotools.RotateFile)
