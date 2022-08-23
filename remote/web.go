@@ -7,10 +7,10 @@ import (
 	"strings"
 
 	"github.com/yinqiwen/gotoolkit/ots"
-	"github.com/yinqiwen/gsnova/common/channel"
-	httpChannel "github.com/yinqiwen/gsnova/common/channel/http"
-	"github.com/yinqiwen/gsnova/common/channel/websocket"
-	"github.com/yinqiwen/gsnova/common/logger"
+	"github.com/wilson818/gsnova/common/channel"
+	httpChannel "github.com/wilson818/gsnova/common/channel/http"
+	"github.com/wilson818/gsnova/common/channel/websocket"
+	"github.com/wilson818/gsnova/common/logger"
 )
 
 // hello world, the web server
