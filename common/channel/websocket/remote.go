@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"github.com/gorilla/websocket"
-	"github.com/yinqiwen/gsnova/common/channel"
-	"github.com/yinqiwen/gsnova/common/mux"
+	"github.com/wilson818/gsnova/common/channel"
+	"github.com/wilson818/gsnova/common/mux"
 	"github.com/yinqiwen/pmux"
 )
 
