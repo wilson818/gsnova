@@ -14,10 +14,10 @@ import (
 
 	"github.com/yinqiwen/gotoolkit/iotools"
 	"github.com/yinqiwen/gotoolkit/ots"
-	"github.com/yinqiwen/gsnova/common/channel"
-	"github.com/yinqiwen/gsnova/common/helper"
-	"github.com/yinqiwen/gsnova/common/logger"
-	"github.com/yinqiwen/gsnova/common/netx"
+	"github.com/wilson818/gsnova/common/channel"
+	"github.com/wilson818/gsnova/common/helper"
+	"github.com/wilson818/gsnova/common/logger"
+	"github.com/wilson818/gsnova/common/netx"
 )
 
 var httpDumpLog *iotools.RotateFile
