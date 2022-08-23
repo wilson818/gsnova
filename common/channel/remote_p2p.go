@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/yinqiwen/gsnova/common/logger"
-	"github.com/yinqiwen/gsnova/common/mux"
+	"github.com/wilson818/gsnova/common/logger"
+	"github.com/wilson818/gsnova/common/mux"
 )
 
 type p2pNode struct {
