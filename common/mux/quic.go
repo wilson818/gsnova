@@ -11,7 +11,7 @@ import (
 
 type QUICMuxSession struct {
 	streamCounter int64
-	quic.Session
+	quic.Connection
 }
 
 func (q *QUICMuxSession) Ping() (time.Duration, error) {
@@ -24,7 +24,7 @@ func (q *QUICMuxSession) CloseStream(stream MuxStream) error {
 }
 
 func (q *QUICMuxSession) OpenStream() (MuxStream, error) {
-	s, err := q.Session.OpenStreamSync(context.Background())
+	s, err := q.OpenStreamSync(context.Background())
 	if nil != err {
 		return nil, err
 	}
