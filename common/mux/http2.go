@@ -11,8 +11,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/yinqiwen/gsnova/common/helper"
-	"github.com/yinqiwen/gsnova/common/logger"
+	"github.com/wilson818/gsnova/common/helper"
+	"github.com/wilson818/gsnova/common/logger"
 	"github.com/yinqiwen/pmux"
 	"golang.org/x/net/http2"
 )
