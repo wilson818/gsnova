@@ -33,7 +33,7 @@ func (q *QUICMuxSession) OpenStream() (MuxStream, error) {
 }
 
 func (q *QUICMuxSession) AcceptStream() (MuxStream, error) {
-	s, err := q.Session.AcceptStream(context.Background())
+	s, err := q.Connection.AcceptStream(context.Background())
 	if nil != err {
 		return nil, err
 	}
@@ -46,7 +46,7 @@ func (q *QUICMuxSession) NumStreams() int {
 
 func (q *QUICMuxSession) Close() error {
 	q.streamCounter = 0
-	return q.Session.CloseWithError(0, "")
+	return q.Connection.CloseWithError(0, "")
 }
 func (s *QUICMuxSession) RemoteAddr() net.Addr {
 	return nil
