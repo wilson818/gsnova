@@ -7,7 +7,7 @@ import (
 	"time"
 
 	quic "github.com/lucas-clemente/quic-go"
-	"github.com/lucas-clemente/quic-go"
+
 )
 
 type QUICMuxSession struct {
