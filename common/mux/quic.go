@@ -6,8 +6,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	quic "github.com/lucas-clemente/quic-go"
-		
+	quic "github.com/lucas-clemente/quic-go"		
 
 )
 
@@ -26,7 +25,7 @@ func (q *QUICMuxSession) CloseStream(stream MuxStream) error {
 }
 
 func (q *QUICMuxSession) OpenStream() (MuxStream, error) {
-	s, err := q.OpenStreamSync()
+	s, err := q.Session.OpenStreamSync(context.Background())
 	if nil != err {
 		return nil, err
 	}
