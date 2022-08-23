@@ -38,7 +38,7 @@ func (tc *QUICProxy) CreateMuxSession(server string, conf *channel.ProxyChannelC
 		}
 		hostport = net.JoinHostPort(iphost, tcpPort)
 	}
-	var quicSession quic.Session
+	var quicSession quic.Connection
 
 	udpAddr, err := net.ResolveUDPAddr("udp", hostport)
 	if err != nil {
