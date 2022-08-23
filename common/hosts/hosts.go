@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/yinqiwen/gsnova/common/helper"
+	"github.com/wilson818/gsnova/common/helper"
 )
 
 const SNIProxy = "sni_proxy"
