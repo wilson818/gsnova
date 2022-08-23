@@ -13,7 +13,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/yinqiwen/gsnova/common/logger"
+	"github.com/wilson818/gsnova/common/logger"
 )
 
 type hostWildcardRule struct {
