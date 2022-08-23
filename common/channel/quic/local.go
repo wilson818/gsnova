@@ -49,7 +49,7 @@ func (tc *QUICProxy) CreateMuxSession(server string, conf *channel.ProxyChannelC
 		return nil, err
 	}
 	quicConfig := &quic.Config{
-		KeepAlive: true,
+		config.KeepAlive: true,
 	}
 	quicSession, err = quic.Dial(udpConn, udpAddr, hostport, &tls.Config{InsecureSkipVerify: true}, quicConfig)
 
